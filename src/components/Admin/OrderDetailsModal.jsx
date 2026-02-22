@@ -43,7 +43,7 @@ export default function OrderDetailsModal({ order, close }) {
                             style={{display:'flex', gap: '15px', marginBottom: '15px', alignItems: 'center'}}
                         >
                             <img
-                                src={`${API_BASE_URL}/images/${item.Image}`}
+                                src={`${API_BASE_URL}\/images/${item.Image}`}
                                 alt={item.Title}
                                 style={{width: '50px', height: '50px', objectFit: 'cover', borderRadius: '5px'}}
                             />

@@ -1,16 +1,35 @@
-# React + Vite
+# 🛒 GetGadjet Store - React Edition
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modernized, full-stack e-commerce application featuring a React frontend, a containerized PHP API, and a managed cloud database.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+**Frontend:** [https://get-gadjet-store-react.vercel.app/](https://get-gadjet-store-react.vercel.app/)  
+**Backend API:** [https://getgadjet-store-api.onrender.com/](https://getgadjet-store-api.onrender.com/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🏗️ Architecture Overview
+This project represents a migration from a legacy PHP monolith to a distributed cloud architecture:
+- **Frontend:** React.js (Vite) for a fast, responsive UI.
+- **Backend:** PHP 8.2 API hosted in a **Docker** container on Render.
+- **Database:** Managed MySQL via **Aiven.io**.
+- **Deployment:** CI/CD integration with GitHub, Vercel, and Render.
 
-## React Compiler
+## ✨ Key Upgrades
+- **CORS Management:** Implemented a global middleware for secure cross-origin resource sharing.
+- **Environment Security:** Secured sensitive database credentials using server-side environment variables.
+- **Containerization:** Used Docker to standardize the PHP environment, including `mysqli` extensions.
+- **State Management:** Efficient React state handling for Cart logic and Admin dashboards.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
+- **Frontend:** React, Tailwind CSS, React Router, Lucide Icons.
+- **Backend:** PHP (PDO/MySQLi), Docker.
+- **Database:** Managed MySQL (Aiven).
+- **Hosting:** Vercel (Frontend), Render (API).
 
-## Expanding the ESLint configuration
+## 📸 Preview
+*(![alt text](image.png))*
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Installation & Setup
+1. Clone the repository.
+2. Install dependencies: `npm install`
+3. Configure `src/config.js` with your API URL.
+4. Start development: `npm run dev`

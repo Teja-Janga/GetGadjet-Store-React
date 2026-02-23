@@ -20,13 +20,13 @@ This project represents a migration from a legacy PHP monolith to a distributed 
 - **State Management:** Efficient React state handling for Cart logic and Admin dashboards.
 
 ## 🛠️ Tech Stack
-- **Frontend:** React, Tailwind CSS, React Router, Lucide Icons.
-- **Backend:** PHP (PDO/MySQLi), Docker.
-- **Database:** Managed MySQL (Aiven).
+- **Frontend:** React, CSS.
+- **Backend:** PHP (MySQLi), Docker.
+- **Database:** Managed MySQL (Aiven.io).
 - **Hosting:** Vercel (Frontend), Render (API).
 
 ## 📸 Preview
-*(![alt text](image.png))*
+*![alt text](image.png)*
 
 ## 🛠️ Installation & Setup
 1. Clone the repository.

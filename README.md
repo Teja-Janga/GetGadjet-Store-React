@@ -73,7 +73,9 @@ GetGadjet-React/
 │   │   │   ├── OrderDetailsModal.jsx
 │   │   │   ├── OrderDetails.jsx
 │   │   │   ├── RegisterForm.jsx         
-├── image.png              
+├── image.png 
+├── public/
+├── package.json              
 └── .gitignore                 
 
 ```
